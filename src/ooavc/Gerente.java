@@ -1,6 +1,6 @@
 package ooavc;
 
-public class Gerente extends Funcionario {
+public class Gerente extends FuncionarioEspecial {
 	int senha;
 	
 	public boolean verifica (int senha) {
@@ -20,9 +20,14 @@ public class Gerente extends Funcionario {
 		//	return this.salario * 0.15;
 		//}
 	
-	double getBonus() {
-			//return this.salario * 0.05+5000;
-			return super.getBonus()+5000;
-			}
+//	double getBonus() {
+//			//return this.salario * 0.05+5000;
+//			return super.getBonus()+5000;
+//			}
 		
+		double getBonus() {
+			return this.salario * 0.05+5000;
+		}
+	
+	
 }

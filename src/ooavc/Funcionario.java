@@ -1,6 +1,6 @@
 package ooavc;
 
-public class Funcionario {
+public abstract class Funcionario {
 	protected String nome;
 	protected String cpf;
 	protected String departamento;
@@ -9,10 +9,14 @@ public class Funcionario {
 	protected String status;
 	
 	//v2 do bonus percent fixo sobre o salario 5%
+//	
+//	double getBonus() {
+//		return this.salario * 0.05;
+//	}
+		
+	abstract double getBonus() ;
+//		return this.salario * 0.05;
 	
-	double getBonus() {
-		return this.salario * 0.05;
-	}
 	
 	protected String getNome() {
 		return nome;
@@ -51,7 +55,9 @@ public class Funcionario {
 		this.status = status;
 	}
 	
-	
+	public void verifica() {
+		
+	}
 	
 	//void bonificacao (double bonus) {
 	//	salario+=bonus;

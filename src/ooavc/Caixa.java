@@ -1,6 +1,6 @@
 package ooavc;
 
-public class Caixa extends Funcionario {
+public class Caixa extends FuncionarioEspecial {
 	int senha;
 	
 	public boolean verifica (int senha) {
