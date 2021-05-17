@@ -1,6 +1,6 @@
 package ooavc;
 
-public class Gerente extends FuncionarioEspecial {
+public class Gerente extends Funcionario implements AcessoBancoInterno {
 	int senha;
 	
 	public boolean verifica (int senha) {
