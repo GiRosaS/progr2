@@ -29,9 +29,9 @@ public class TestaMath1 {
 		double d5 = 4.99999999999;
 		System.out.println(Math.floor(d5));
 
-		//implementar e testar Math.exp, Math.log, Math.pow
+		//implementar >> TestaMath2 e testar Math.exp, Math.log, Math.pow
 		//Math.sqrt, log de a na base b, 
-		//Ver a diferença de Math.sin e Math.toDegrees, Math.toRadiano
+		//implementar >> TestaMath3 e ver a diferença de Math.sin e Math.toDegrees, Math.toRadiano
 		//
 	}
 
